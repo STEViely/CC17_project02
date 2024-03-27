@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./new.html">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+
+    
+    <h1>Contact</h1>
+    <hr />
+    <fieldset>
+        <legend><h3>Please fill form</h3></legend>
+   
+    <form action="./index.html" method="post">
+        <label> First name:
+            <input type="text" name="fname" />
+        </label> <br> <br>
+        <label> Last name
+            <input type="text" name="lname">
+        </label> <br> <br>
+         
+        <label> <br><br><br>
+            <input type="radio" name="course" value="HTML">HTML
+        </label>
+        <label>
+            <input type="radio" name="course" value="CSS">CSS
+        </label>
+        <label>
+            <input type="radio" name="course" value="JS">JAvaScript
+        </label>
+    </fieldset>
+    </form>
+    </fieldset>
+    <!-- type"submit" must be small  -->
+    <p>Framework</p>
+    <label>
+        <input type="radio" name="" value="react" checked>React
+    </label>
+    <label>  
+            <input type="radio" name="" value="react" disabled>angular
+    </label> <br><br>
+
+    <h2>the select element</h2>
+
+    <button>OK</button>
+    <button type="buttton">OK2</button>
+    <input type="submit" value="submit" /><br><br>
+
+    <hr />
+
+    <div>
+        <h1>The fieldset element</h1>
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.navbar {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 8px;
+   justify-content: space-around;
+ }
+ img{
+  width: 50%;
+  height: 600px;
+ }
+ .table-user {
+  background-color: bisque;
+  border: 1px solid silver;
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+}
+.table-user td, .table-user th {
+  border: 1px solid red; 
+  padding: 8px;
+ }
